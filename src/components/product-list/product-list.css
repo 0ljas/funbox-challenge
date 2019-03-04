@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  .product-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-list {
+    justify-content: flex-start;
+  }
+}
